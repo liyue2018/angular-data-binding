@@ -66,4 +66,13 @@
 <!-- <input type="text" [ngModel]="model">{{model}} -->
 
 
+<p>管道demo</p>
 
+<p>生日是：{{birthday}}</p>
+<p>使用了管道之后显示的生日是：{{birthday | date | uppercase}}</p>
+<p>date管道指定参数之后显示的生日是：{{birthday | date:'yyyy-MM-dd HH:mm:ss' | uppercase}}</p>
+<p>圆周率是{{pi}}</p>
+<p>使用number管道后显示的圆周率是{{pi | number:'2.2-2'}}</p>
+<p>使用number管道后显示的圆周率是{{pi | number:'2.1-4'}}</p>
+<p>使用number管道后显示的圆周率是{{pi | number:'1.1-4'}}</p>
+<p>使用自定义管道后显示的圆周率是{{pi | multiple:'2'}}</p>

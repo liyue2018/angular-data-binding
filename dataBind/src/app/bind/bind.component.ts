@@ -22,6 +22,9 @@ export class BindComponent implements OnInit {
       color: 'blue',
       background:'yellow'
   }
+
+  private birthday:Date = new Date();
+  private pi: number = 3.1415926;
   constructor() { }
 
   ngOnInit() {

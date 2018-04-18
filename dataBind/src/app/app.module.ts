@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BindComponent } from './bind/bind.component';
+import { MultiplePipe } from './pipe/multiple.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BindComponent
+    BindComponent,
+    MultiplePipe
   ],
   imports: [
     BrowserModule
